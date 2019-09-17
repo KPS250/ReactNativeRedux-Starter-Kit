@@ -7,6 +7,10 @@ Integrations:
 3. Axios: For Network Calls
 4. React Native Router Flux: For App Navigation
 
+![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_1.png)
+![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_2.png)
+![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_3.png)
+
 ## Starting a new Project
 
 Step 1: Clone this repository
@@ -22,7 +26,10 @@ Navigate to the app directory & do
 ```bash
 npm install
 
-react-native link react-native-vector-icons
+cd ios
+
+pod install
+
 ```
 
 Step 3: Changing AppName & PackageName/AppId/BundleId
