@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {View, Text} from 'react-native'
 import {connect} from 'react-redux'
 
-class Cart extends Component{
+class StatefulRedux extends Component{
     render(){
         return(
             <View style={commonStyles.container}>
@@ -13,15 +13,13 @@ class Cart extends Component{
 }
 
 const mapStateToProps = state =>{
-    console.log('State', state.countReducer.count)
       return {
-          count : state.countReducer.count
+         // count : state.countReducer.count
       }
   }
   
   const mapDispatchToProps = {
-         increase,
-         decrease
+        //increase,
   }
 
-  export default connect(mapStateToProps, mapDispatchToProps)(Cart)
+  export default connect(mapStateToProps, mapDispatchToProps)(StatefulRedux)

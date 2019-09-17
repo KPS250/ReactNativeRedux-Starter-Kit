@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
+import { Colors } from '../../../utils/values/Colors';
 
-export default class Stateful extends Component{
+export default class Menu extends Component{
 
 constructor(props) {
     super(props);
@@ -23,8 +24,9 @@ constructor(props) {
 const styles = EStyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    paddingTop: 39,
+    backgroundColor: Colors.primary,
+    paddingHorizontal: 25,
   },
 
 });

@@ -35,9 +35,9 @@ export default AppBar = ({title, mode, hideOptions, leftClick, rightClick}) => {
 
 const styles = EStyleSheet.create({
     container:{
+        top:0,
         width:'100%',
         position:'absolute',
-        top:0,
         height:'56rem',
         flexDirection:'row',
         alignItems: 'center',
@@ -49,14 +49,12 @@ const styles = EStyleSheet.create({
         //fontFamily: Fonts.bold
     },
     leftIcon:{
-        paddingLeft:'21rem',
-        paddingRight:'14rem',
+        paddingHorizontal:'16rem',
     },
     rightIcon:{
-        position:'absolute',
         right:0,
-        paddingRight:'16rem',
-        paddingLeft:'16rem'
+        position:'absolute',
+        paddingHorizontal:'16rem',
     }
     
 });

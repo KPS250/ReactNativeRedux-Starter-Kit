@@ -18,7 +18,7 @@ export default class AuthLoading extends Component{
               mode={1}
               title={'Home'}
               hideOptions={false}
-              leftClick={()=>alert('Left')}
+              leftClick={() => Actions.drawerOpen()}
               rightClick={()=>alert('Right')}
             />
             <Text>React Native</Text>
