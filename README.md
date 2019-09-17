@@ -6,10 +6,30 @@ Integrations:
 2. Extended StyleSheet: For Ui Rendering
 3. Axios: For Network Calls
 4. React Native Router Flux: For App Navigation
+5. React Native Modal : For Modals
 
-![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_1.png)
-![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_2.png)
-![alt text](https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_3.png)
+<table>
+  <tr>
+    <td>
+    <img 
+         src="https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_1.png"                      width="400">
+    </td>
+    <td>
+      <img 
+          src="https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_2.png"                     width="400">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img 
+          src="https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_3.png"                     width="400">
+    </td>
+    <td>
+      <img 
+          src="https://github.com/KPS250/ReactNativeRedux-Starter-Kit/blob/master/app/screenshots/Screenshot_4.png"                     width="400">
+    </td>
+  </tr>
+</table>
 
 ## Starting a new Project
 
