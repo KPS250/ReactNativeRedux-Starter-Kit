@@ -43,3 +43,11 @@ export const setToken = async (token) => {
         console.log(e)
     }
 }
+
+export const handleOnBackPress = () => {
+    if (Actions.state.index === 0)
+      return false
+    Actions.pop()
+    return true
+}
+
